@@ -12,7 +12,7 @@ pipeline {
 
         stage('Run') {
             steps {
-                echo 'Deploying....'
+                sh 'docker images ps'
             }
         }
     }
