@@ -12,7 +12,7 @@ pipeline {
 
         stage('Run') {
             steps {
-                sh 'docker images'
+                bat 'docker images'
             }
         }
     }
